@@ -1,5 +1,6 @@
 body {
     background-image: url(https://cdn.shopify.com/s/files/1/0633/7039/5889/files/junkfood_widescreen.jpg)
+    background-size: cover;
   }
   
   h1, p {
