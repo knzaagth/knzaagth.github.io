@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>What's Your Fav Snack Survey</title>
+    <link rel="stylesheet" href="survey.css">
+  </head>
+  <body>
+    <h1 id="title">What's Your Favorite Snack?</h1>
+    <p id="description">a mini survey by knzaagth</p>
+ <!-- form -->
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label">Name<input required type="text" name="name" id="name" placeholder=" short name are ok!"></input></label>
+      <label id="number-label">Age<input required type="number" name="age" min="12" max="70" id="number" placeholder=" min 12 y.o"></input></label>
+      <label id="email-label">Email<input required type="email" id="email" placeholder=" xxxxxxx@gmail.com"></input></label>
+      <label>Gender
+        <select id="dropdown">
+          <option value=""></option>
+          <option value="1">Male</option>
+          <option value="2">Female</option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label id="choice-a">Which flavor do you prefer?</label>
+      <label><input type="radio" class="flavor" name="flavor" value="1"></input> Sweet</label>
+      <label><input type="radio" class="flavor" name="flavor" value="2"></input> Savory</label>
+    </fieldset>
+    <fieldset>
+      <label id="choice-b">What kind of snack you usually buy? (>1 choice)</label>
+      <label>Drink(s)</label>
+      <label><input type="checkbox" class="item" value="1"></input> Coffee</label>
+      <label><input type="checkbox" class="item" value="2"></input> Tea</label>
+      <label><input type="checkbox" class="item" value="3"></input> Milk</label>
+      <label><input type="checkbox" class="item" value="4"></input> Soda</label>
+      <label><input type="checkbox" class="item" value="5"></input> Yogurt</label>
+    </fieldset>
+    <fieldset>
+      <label>Food(s)</label>
+      <label><input type="checkbox" class="item" value="1"></input> Instant Noodle</label>
+      <label><input type="checkbox" class="item" value="2"></input> Chips</label>
+      <label><input type="checkbox" class="item" value="3"></input> Chocolate</label>
+      <label><input type="checkbox" class="item" value="4"></input> Jelly</label>
+      <label><input type="checkbox" class="item" value="5"></input> Biscuit</label>
+    </fieldset>
+    <fieldset>
+      <label>Any recommend snack product(s)? Tell us!</label>
+      <textarea placeholder="enter you comment here.."></textarea>
+    </fieldset>
+    <fieldset>
+      <button type="submit" id="submit">Submit</button>
+    </fieldset>
+  </form>
+  </body>
+</html>
